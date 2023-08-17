@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="logic.js" defer></script>
+</head>
+<body> 
+    <div class="main">
+        <div class="left">
+        
+        </div>
+        <div class="container">
+            <div class="n-boxes">
+                <label for="slider">Chose the size of the grid</label>
+                <div>
+                <input type="range" name="slider" 
+                 min="10" max="100" step="1" value="10">
+                <span class="slider-value">10</span>
+                </div>
+            </div>
+            <div class='bottom-container'>
+                <div class="grid">
+                    
+                </div>
+                <div class="controls">
+                    <button class="clear-btn">Clear</button>
+                    <button class="fill-btn">Fill</button>
+                    <input type="color" class="color-picker">
+                    <div class="random-color">
+                        <p>random colors</p>
+                        <label class="switch"> 
+                            <input type="checkbox" unchecked>
+                            <span class="slider  round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="right">
+            
+        </div>
+    </div>
+    <footer>
+        &#169; abderrahmane naab @ The Odin Project 
+    </footer>
+</body>
+</html>
